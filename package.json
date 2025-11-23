@@ -6,7 +6,10 @@
   "author": "meadowbees",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "install": "npm install",
+    "test": "echo \"No test defined\" && exit 0",
+    "test:coverage": "echo \"No coverage defend\" && exit 0"
   },
   "dependencies": {
     "express": "^4.21.2",
