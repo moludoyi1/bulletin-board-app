@@ -2,11 +2,11 @@
   "name": "bulletin-board-app",
   "version": "1.0.0",
   "description": "A simple Node.js",
-  "main": "server.js",
+  "main": "index.js",
   "author": "meadowbees",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.21.2",
