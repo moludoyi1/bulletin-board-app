@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "install": "npm install",
+    "install": "echo \"Running install script (no-op for CI)\"",
     "test": "echo \"No test defined\" && exit 0",
     "test:coverage": "echo \"No coverage defend\" && exit 0"
   },

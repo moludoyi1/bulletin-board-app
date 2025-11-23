@@ -28,6 +28,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Run install script (assignment requirement)
+        run: npm run install
+
       - name: Run tests
         run: npm run test
 
